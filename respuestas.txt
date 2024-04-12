@@ -1,1 +1,7 @@
+PUNTO 2) APARTADO f)
 
+No se puede ver el archivo tp2_2_2.c pues a este lo trabajamos creandolo y modificando el codigo en otra rama, la cual llamamos Opcion_2. A la hora de volver a la rama main, cuando inspeccionamos los archivos claramente no lo veremos pues los archivos no estan presentes en esta rama.
+
+Cuando creamos el archivo respuestas.txt y realizamos el commit y analizamos el gitk --all podemos ver que el commit se posiciona en la zona donde estan todos los commit de la rama main por mas que hayamos hecho el commit despues como en este caso.
+
+Cuando usamos el comando "git merge Opcion_2 -m "merge opcion 2"" en la rama main lo que indicamos que se realice es que la rama Opcion_2 se conecte con la rama main y todo los cambios que se efectuaron o probaron en esa rama se suban directamente a la rama main, entonces la version de Opcion_2 se unifica con la de la rama main, quedando como version final la de la Opcion_2.

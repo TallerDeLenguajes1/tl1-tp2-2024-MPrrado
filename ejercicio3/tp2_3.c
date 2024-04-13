@@ -3,6 +3,7 @@
 #include <time.h>
 #define N 5
 #define M 7
+
 int main()
 {
     int i,j;
